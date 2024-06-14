@@ -3,7 +3,7 @@ error_reporting(0);
 $host=$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
 $usernn = "USER-NAME";
 $userbot = str_replace("@MkAlmortagel_bot","",$usernn);
-$admiin = "ADMIN-ID";
+$admiin = "7464592789";
 define("API_KEY","TOKEN-ID");
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
